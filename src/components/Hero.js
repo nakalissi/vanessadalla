@@ -10,12 +10,12 @@ function Hero() {
         <div className="row justify-content-center">
           <div className="col-xl-7 col-lg-9 text-center mt-10">
             <h1>
-              Dê um upgrade na gestão de seus celulares corporativos com a
-              Solution2.me
+              Transformamos trajetórias profissionais e ajudamos empresas a
+              encontrar os talentos certos de maneira diferenciada e eficaz.
             </h1>
             <h2>
-              Reparo de celulares, gestão e sanitização de dados com segurança,
-              eficiência e economia.
+              Bem-vindo (a) ao site oficial da Vanessa Dalla, especialista em
+              recrutamento, seleção e carreira!
             </h2>
           </div>
         </div>

@@ -82,6 +82,11 @@ function Header() {
               </a>
             </li>
             <li>
+              <a className="nav-link scrollto" href="/#products">
+                Produtos
+              </a>
+            </li>
+            <li>
               <a className="nav-link scrollto" href="/#contact">
                 Contato
               </a>

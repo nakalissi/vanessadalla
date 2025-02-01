@@ -5,54 +5,52 @@ function Main() {
       <section id="about" className="about">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
-            <h2>Proposta de valor</h2>
+            <h2>Sobre Mim</h2>
             <p>
-              Na Vanessa Dalla Recrutamento e Seleção, oferecemos muito mais que
-              reparos de celulares; gerenciamos integralmente seus dispositivos
-              móveis com um serviço abrangente que inclui controle de estoque,
-              sanitização de dados e recompra de aparelhos usados, tudo isso com
-              a garantia de peças originais e técnicos especializados
+              Sou Vanessa Dalla, consultora de carreira e headhunter, com vasta
+              experiência em ajudar profissionais a alcançarem seus sonhos e
+              empresas a encontrarem soluções estratégicas em recrutamento e
+              seleção.
             </p>
           </div>
 
           <div className="row content">
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-12">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Meu compromisso é criar conexões autênticas, sempre com
+                transparência, empatia e um olhar acolhedor.
               </p>
               <ul>
                 <li>
-                  <i className="ri-check-double-line"></i> Ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat
+                  <i className="ri-check-double-line"></i> Conectar organizações
+                  aos profissionais ideais, que não apenas impulsionem
+                  resultados, mas também contribuam para um ambiente de trabalho
+                  harmonioso e inspirador.
                 </li>
                 <li>
-                  <i className="ri-check-double-line"></i> Duis aute irure dolor
-                  in reprehenderit in voluptate velit
+                  <i className="ri-check-double-line"></i> Capacitar pessoas a
+                  encontrarem o emprego dos seus sonhos, onde possam crescer, se
+                  desenvolver e receber o devido reconhecimento por suas
+                  contribuições.
                 </li>
                 <li>
-                  <i className="ri-check-double-line"></i> Ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat
+                  <i className="ri-check-double-line"></i> Ser referência em
+                  consultoria de carreira e recrutamento personalizado no
+                  Brasil. Valores: Empatia, transparência, excelência e impacto
+                  positivo.
                 </li>
               </ul>
             </div>
-            <div className="col-lg-6 pt-4 pt-lg-0">
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
-              </p>
+            <div className="col-lg-6 col-md-12pt-4 pt-lg-0 text-center">
               <a href="/#" className="btn-learn-more">
-                Learn More
+                Solicite um orçamento gratuíto
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="about" className="about-video">
+      {/* <section id="about" className="about-video">
         <div className="container" data-aos="fade-up">
           <div className="row">
             <div
@@ -102,12 +100,12 @@ function Main() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section id="services" className="services section-bg">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
-            <h2>Serviços</h2>
+            <h2>Serviços pra Profissionais</h2>
             <p>
               Magnam dolores commodi suscipit. Necessitatibus eius consequatur
               ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
@@ -140,9 +138,16 @@ function Main() {
                   <i className="bx bx-tachometer"></i>
                 </div>
                 <h4>
-                  <a href="/">Mentoria de Carreira</a>
+                  <a href="/">Conquiste Sua Vaga dos Sonhos</a>
                 </h4>
-                <p>Nível 1 e 2, com técnicos certificados e peças originais.</p>
+                <p>
+                  Planejamento estratégico de carreira com foco em resultados
+                  rápidos.
+                </p>
+                <p>
+                  Dicas práticas para transições de área e reinserção no
+                  mercado.
+                </p>
               </div>
             </div>
 
@@ -169,10 +174,11 @@ function Main() {
                   <i className="bx bx-file"></i>
                 </div>
                 <h4>
-                  <a href="/">Recrutamento e Seleção</a>
+                  <a href="/">Otimização de Currículo e LinkedIn</a>
                 </h4>
+                <p>Perfis otimizados que atraem recrutadores com rapidez.</p>
                 <p>
-                  Controle de estoque, logística e relatórios personalizados.
+                  Currículos personalizados, claros e altamente impactantes.
                 </p>
               </div>
             </div>
@@ -200,9 +206,14 @@ function Main() {
                   <i className="bx bx-like"></i>
                 </div>
                 <h4>
-                  <a href="/">Consultoria LinkedIn e Currículo</a>
+                  <a href="/">
+                    Esteja Pronto para Impressionar em Sua Próxima Entrevista
+                  </a>
                 </h4>
-                <p>ADISA e ISO, com laudos detalhados.</p>
+                <p>
+                  Simulações realistas e feedbacks detalhados para maximizar
+                  desempenho.
+                </p>
               </div>
             </div>
 
@@ -229,19 +240,37 @@ function Main() {
                   <i className="bx bx-refresh"></i>
                 </div>
                 <h4>
-                  <a href="/">Recompra de usados</a>
+                  <a href="/">Orientação de Carreira</a>
                 </h4>
                 <p>
-                  Valorizamos seus equipamentos antigos, quando for trocar o seu
-                  parque de celulares nós garantimos a recompra dos usados.
+                  Desenvolvimento de autoconhecimento e alinhamento com
+                  objetivos profissionais.
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
 
+      <section id="services-companies" className="services section-bg">
+        <div className="container" data-aos="fade-up">
+          <div className="section-title">
+            <h2>Serviços para Empresas</h2>
+            <p>
+              Oferecemos soluções exclusivas e personalizadas para cada cliente,
+              unindo experiência prática e ferramentas modernas para garantir
+              eficiência e impacto. Nosso foco está na criação de conexões
+              genuínas entre candidatos e empresas, priorizando a experiência de
+              ambos. Combinamos análises precisas com uma execução ágil,
+              acelerando processos e entregando resultados com excelência.
+            </p>
+          </div>
+
+          <div className="row">
             <div
-              className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
+              className="col-lg-4 col-md-6 d-flex align-items-stretch"
               data-aos="zoom-in"
-              data-aos-delay="200"
+              data-aos-delay="100"
             >
               <div className="icon-box iconbox-green">
                 <div className="icon">
@@ -255,23 +284,46 @@ function Main() {
                       stroke="none"
                       strokeWidth="0"
                       fill="#f5f5f5"
-                      d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"
+                      d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"
                     ></path>
                   </svg>
-                  <i className="bx bx-flag"></i>
+                  <i className="bx bx-tachometer"></i>
                 </div>
                 <h4>
-                  <a href="/">Atendimento nacional</a>
+                  <a href="/">Recrutamento e Seleção personalizado</a>
                 </h4>
-                <p>Suporte para empresas em todo o Brasil.</p>
+                <p>
+                  Processos personalizados para encontrar talentos alinhados à
+                  cultura organizacional.
+                </p>
+                <p>
+                  Estratégias que garantem redução do turnover e alto
+                  engajamento.
+                </p>
+                <p>
+                  Com objetivo de aliar velocidade a qualidade do processo
+                  seletivo, utilizamos ferramentas de inteligência artificial e
+                  avaliação comportamental.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="clients" className="clients section-bg">
+      <section id="clients" className="clients">
         <div className="container">
+          <div className="section-title">
+            <h2>Clientes que Atendemos</h2>
+            <p>
+              Atendemos profissionais de todo o Brasil que buscam novas
+              oportunidades, desejam mudar de área ou precisam de orientação
+              para crescer na carreira. Para empresas de diferentes portes,
+              oferecemos soluções estratégicas para contratação ágil, redução do
+              turnover e retenção de talentos com alinhamento cultural.
+            </p>
+          </div>
+
           <div className="row">
             <div
               className="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center"
@@ -294,37 +346,20 @@ function Main() {
                 alt="Comexport"
               />
             </div>
-
-            <div
-              className="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center"
-              data-aos="zoom-in"
-            >
-              <img
-                src="assets/images/clients/mapfre.png"
-                className="img-fluid"
-                alt="Mapfre Seguros"
-              />
-            </div>
-
-            <div
-              className="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center"
-              data-aos="zoom-in"
-            >
-              <img
-                src="assets/images/clients/sura.png"
-                className="img-fluid"
-                alt="Sura Seguros"
-              />
-            </div>
           </div>
         </div>
       </section>
 
-      <section id="testimonials" className="testimonials">
+      <section id="testimonials" className="testimonials section-bg">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
             <h2>Depoimento de Clientes Satisfeitos</h2>
-            <p>Depoimento de clientes satisfeitos</p>
+            <p>
+              Entregamos 90% de acertividades em contratações em diversos cargos
+              para uma empresa no setor de logística e comércio Exterior por
+              meio de nossa metodologia personalizada de recrutamento com um
+              olhar acertivo e empático.
+            </p>
           </div>
 
           <div
@@ -437,6 +472,54 @@ function Main() {
         </div>
       </section>
 
+      <section id="products" className="services section-bg">
+        <div className="container" data-aos="fade-up">
+          <div className="section-title">
+            <h2>Conteúdos Exclusivos</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+
+          <div className="row">
+            <div
+              className="col-lg-4 col-md-6 d-flex align-items-stretch"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div className="icon-box iconbox-green">
+                <div className="icon">
+                  <svg
+                    width="100"
+                    height="100"
+                    viewBox="0 0 600 600"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke="none"
+                      strokeWidth="0"
+                      fill="#f5f5f5"
+                      d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"
+                    ></path>
+                  </svg>
+                  <i className="bx bx-tachometer"></i>
+                </div>
+                <h4>
+                  <a href="/">E-books</a>
+                </h4>
+                <p>
+                  Materiais completos para otimizar seu LinkedIn, preparar-se
+                  para entrevistas e muito mais.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="faq" className="faq section-bg">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
@@ -453,7 +536,7 @@ function Main() {
                   data-bs-target="#faq-list-2"
                   className="collapsed"
                 >
-                  Quanto custa o serviço de reparo?{" "}
+                  Quanto tempo dura o processo de recrutamento?{" "}
                   <i className="bx bx-chevron-down icon-show"></i>
                   <i className="bx bx-chevron-up icon-close"></i>
                 </a>
@@ -462,7 +545,15 @@ function Main() {
                   className="collapse"
                   data-bs-parent=".faq-list"
                 >
-                  <p>Quanto custa o serviço de reparo?</p>
+                  <p>
+                    O tempo médio de um processo de recrutamento pode variar de
+                    acordo com a complexidade da vaga, o nível hierárquico e a
+                    disponibilidade de candidatos. o prazo médio costuma ser de
+                    15 a 45 dias . Porém, com nossa metodologia ágil e uso de
+                    ferramentas modernas, como inteligência artificial e
+                    avaliação comportamental, buscamos reduzir esse prazo,
+                    mantendo a qualidade e eficiência na entrega dos melhores.
+                  </p>
                 </div>
               </li>
 
@@ -474,7 +565,7 @@ function Main() {
                   data-bs-target="#faq-list-3"
                   className="collapsed"
                 >
-                  Quanto tempo leva para reparar um celular?{" "}
+                  Atendem apenas empresas de grande porte?{" "}
                   <i className="bx bx-chevron-down icon-show"></i>
                   <i className="bx bx-chevron-up icon-close"></i>
                 </a>
@@ -484,164 +575,13 @@ function Main() {
                   data-bs-parent=".faq-list"
                 >
                   <p>
-                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices
-                    sagittis orci. Faucibus pulvinar elementum integer enim. Sem
-                    nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
-                    pellentesque eu tincidunt. Lectus urna duis convallis
-                    convallis tellus. Urna molestie at elementum eu facilisis
-                    sed odio morbi quis
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="300">
-                <i className="bx bx-help-circle icon-help"></i>{" "}
-                <a
-                  href="/#faq-list-4"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#faq-list-4"
-                  className="collapsed"
-                >
-                  Como posso solicitar um orçamento?{" "}
-                  <i className="bx bx-chevron-down icon-show"></i>
-                  <i className="bx bx-chevron-up icon-close"></i>
-                </a>
-                <div
-                  id="faq-list-4"
-                  className="collapse"
-                  data-bs-parent=".faq-list"
-                >
-                  <p>
-                    Molestie a iaculis at erat pellentesque adipiscing commodo.
-                    Dignissim suspendisse in est ante in. Nunc vel risus commodo
-                    viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
-                    bibendum est. Purus gravida quis blandit turpis cursus in.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="400">
-                <i className="bx bx-help-circle icon-help"></i>{" "}
-                <a
-                  href="/#faq-list-5"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#faq-list-5"
-                  className="collapsed"
-                >
-                  Quais são os padrões de segurança que a Solution2.me segue?{" "}
-                  <i className="bx bx-chevron-down icon-show"></i>
-                  <i className="bx bx-chevron-up icon-close"></i>
-                </a>
-                <div
-                  id="faq-list-5"
-                  className="collapse"
-                  data-bs-parent=".faq-list"
-                >
-                  <p>
-                    Laoreet sit amet cursus sit amet dictum sit amet justo.
-                    Mauris vitae ultricies leo integer malesuada nunc vel.
-                    Tincidunt eget nullam non nisi est sit amet. Turpis nunc
-                    eget lorem dolor sed. Ut venenatis tellus in metus vulputate
-                    eu scelerisque.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="400">
-                <i className="bx bx-help-circle icon-help"></i>{" "}
-                <a
-                  href="/#faq-list-6"
-                  data-bs-toggle="collapse"
-                  data-bs-target="/#faq-list-6"
-                  className="collapsed"
-                >
-                  Quais tipos de reparos vocês realizam?{" "}
-                  <i className="bx bx-chevron-down icon-show"></i>
-                  <i className="bx bx-chevron-up icon-close"></i>
-                </a>
-                <div
-                  id="faq-list-6"
-                  className="collapse"
-                  data-bs-parent=".faq-list"
-                >
-                  <p>
-                    Nossos técnicos especializados estão equipados para realizar
-                    desde reparos nível 1 até os mais complexos de nível 2,
-                    sempre com peças originais.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="400">
-                <i className="bx bx-help-circle icon-help"></i>{" "}
-                <a
-                  href="/#faq-list-7"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#faq-list-6"
-                  className="collapsed"
-                >
-                  Como funciona a sanitização de dados?{" "}
-                  <i className="bx bx-chevron-down icon-show"></i>
-                  <i className="bx bx-chevron-up icon-close"></i>
-                </a>
-                <div
-                  id="faq-list-6"
-                  className="collapse"
-                  data-bs-parent=".faq-list"
-                >
-                  <p>
-                    Utilizamos ferramentas avançadas que seguem padrões
-                    internacionais da ADISA e ISO para garantir que cada
-                    fragmento de informação seja completamente eliminado.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="400">
-                <i className="bx bx-help-circle icon-help"></i>{" "}
-                <a
-                  href="/#faq-list-7"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#faq-list-7"
-                  className="collapsed"
-                >
-                  Vocês atendem em todo o Brasil?{" "}
-                  <i className="bx bx-chevron-down icon-show"></i>
-                  <i className="bx bx-chevron-up icon-close"></i>
-                </a>
-                <div
-                  id="faq-list-7"
-                  className="collapse"
-                  data-bs-parent=".faq-list"
-                >
-                  <p>
-                    Sim, oferecemos cobertura nacional, garantindo assistência
-                    rápida e eficiente para empresas de qualquer porte e
-                    localização.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="400">
-                <i className="bx bx-help-circle icon-help"></i>{" "}
-                <a
-                  href="/#faq-list-8"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#faq-list-8"
-                  className="collapsed"
-                >
-                  Como posso rastrear o processo de reparo ou sanitização?{" "}
-                  <i className="bx bx-chevron-down icon-show"></i>
-                  <i className="bx bx-chevron-up icon-close"></i>
-                </a>
-                <div
-                  id="faq-list-8"
-                  className="collapse"
-                  data-bs-parent=".faq-list"
-                >
-                  <p>
-                    Fornecemos atualizações regulares e laudos certificados em
-                    cada etapa do processo, para sua total paz de espírito.
+                    Sim, atendemos empresas de todos os tamanhos e segmentos. No
+                    entanto, nossa principal expertise é no ramo de logística e
+                    comércio exterior, onde desenvolvemos soluções específicas
+                    para atender às necessidades complexas desses setores.
+                    Utilizamos nossa experiência para garantir processos
+                    eficientes e alinhados às melhores práticas de mercado,
+                    sempre com agilidade e qualidade no recrutamento e seleção.
                   </p>
                 </div>
               </li>
@@ -655,10 +595,12 @@ function Main() {
           <div className="section-title">
             <h2>Fale com um especialista</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              Estamos prontos para ajudar você ou sua empresa a atingir o
+              próximo nível.
+            </p>
+            <p>
+              Pronto para transformar sua carreira ou sua empresa? Entre em
+              contato agora mesmo e descubra como podemos ajudar!
             </p>
           </div>
 
@@ -668,13 +610,13 @@ function Main() {
                 <div className="address">
                   <i className="bi bi-geo-alt"></i>
                   <h4>Endereço:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>São Paulo/SP</p>
                 </div>
 
                 <div className="email">
                   <i className="bi bi-envelope"></i>
                   <h4>Email:</h4>
-                  <p>info@solutions2.me</p>
+                  <p>contato@vanessadalla.com.br</p>
                 </div>
 
                 <div className="phone">
