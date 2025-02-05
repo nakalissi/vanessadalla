@@ -428,6 +428,10 @@ h6 {
   height: 100vh;
   position: relative;
   background: var(--primary);
+  background-image: url("/public/assets/images/imagem-4.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 #hero:before {
@@ -437,6 +441,7 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 #hero img {
@@ -1731,7 +1736,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #f8fbfe;
+  background: #832c4608;
   min-height: 40px;
   margin-top: 72px;
 }
@@ -1787,7 +1792,7 @@ section {
 #footer {
   color: #444444;
   font-size: 14px;
-  background: #f8fbfe;
+  background: #832c4608;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
 

@@ -85,10 +85,16 @@ function Footer() {
           <a href="/#" className="facebook">
             <i className="bx bxl-facebook"></i>
           </a>
-          <a href="/#" className="instagram">
+          <a
+            href="https://www.instagram.com/vanessadallaconsultora"
+            className="instagram"
+          >
             <i className="bx bxl-instagram"></i>
           </a>
-          <a href="/#" className="linkedin">
+          <a
+            href="https://www.linkedin.com/in/vanessadallarosa"
+            className="linkedin"
+          >
             <i className="bx bxl-linkedin"></i>
           </a>
         </div>

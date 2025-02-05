@@ -72,15 +72,13 @@ function Header() {
               </a>
             </li>
             <li>
-              <a className="getstarted scrollto" href="/#contact">
-                Ligue +55 11 9 4456-3567
-              </a>
               <a
-                href="https://api.whatsapp.com/send/?phone=5511948691403&text=Ol%C3%A1%2C+seja+bem+vindo+%C3%A1+Tijob%2C+como+podemos+lhe+ajudar+hoje%3F&type=phone_number&app_absent=0"
-                class="whatsapp-button getstarted scrollto"
+                href="https://api.whatsapp.com/send/?phone=5511944563567&text=Ol%C3%A1%2C+seja+bem+vindo+%C3%A1+Tijob%2C+como+podemos+lhe+ajudar+hoje%3F&type=phone_number&app_absent=0"
+                className="whatsapp-button getstarted bg-success"
                 target="_blank"
+                rel="noreferrer"
               >
-                Manda um <i class="bi bi-whatsapp"></i>
+                Whatsapp <i className="bi bi-whatsapp"></i>
               </a>
             </li>
           </ul>
