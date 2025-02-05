@@ -9,9 +9,10 @@ function Footer() {
               <img src="assets/images/logo.png" alt="Vanessa Dalla" />
               <h3>Vanessa Dalla</h3>
               <p>
-                CNPJ: <br />
+                <strong>CNPJ:</strong> 55.029.329/0001-77
                 <br />
-                <strong>Phone:</strong> +1 5589 55488 55
+                <br />
+                <strong>Celular:</strong> +55 11 9 4456-3567
                 <br />
                 <strong>Email:</strong> contato@vanessadalla.com.br
                 <br />
@@ -23,11 +24,7 @@ function Footer() {
               <ul>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="/#hero">Home</a>
-                </li>
-                <li>
-                  <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="/#about">Sobre</a>
+                  <a href="/#about">Sobre Mim</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
@@ -39,33 +36,39 @@ function Footer() {
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
+                  <a href="/products">Produtos</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right"></i>{" "}
                   <a href="/#contact">Contato</a>
                 </li>
               </ul>
             </div>
 
             <div className="col-lg-3 col-md-6 footer-links">
-              <h4>Serviços</h4>
+              <h4>Serviços para Empresas</h4>
               <ul>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="/#">Web Design</a>
+                  <a href="/#">Recrutamento e Seleção Personalizado</a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="col-lg-3 col-md-6 footer-links">
+              <h4>Serviços Profissionais</h4>
+              <ul>
+                <li>
+                  <i className="bx bx-chevron-right"></i>{" "}
+                  <a href="/#">Conquiste sua Vaga dos Sonhos</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="/#">Web Development</a>
+                  <a href="/#">Otimização de Currículo e Linkedin</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="/#">Product Management</a>
-                </li>
-                <li>
-                  <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="/#">Marketing</a>
-                </li>
-                <li>
-                  <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="/#">Graphic Design</a>
+                  <a href="/#">Orientação de Carreira</a>
                 </li>
               </ul>
             </div>
@@ -76,7 +79,7 @@ function Footer() {
       <div className="container d-md-flex py-4">
         <div className="me-md-auto text-center text-md-start">
           <div className="copyright">&copy; Copyright. All Rights Reserved</div>
-          <div className="credits">Designed by nakalissi@gmail.com</div>
+          <div className="credits">Designed by nkweb</div>
         </div>
         <div className="social-links text-center text-md-right pt-3 pt-md-0">
           <a href="/#" className="facebook">

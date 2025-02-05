@@ -516,7 +516,7 @@ h6 {
     background-attachment: fixed;
   }
   #hero .container {
-    padding-top: 500px;
+    padding-top: 300px;
   }
 }
 
@@ -780,7 +780,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding: 15px 0;
+  padding: 80px 0;
   text-align: center;
 }
 
@@ -838,7 +838,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #c9e3f5;
+  color: var(--brown-dark);
   font-size: 26px;
 }
 
@@ -859,7 +859,7 @@ section {
   font-style: italic;
   margin: 0 15px 15px 15px;
   padding: 20px;
-  background: #f3f9fd;
+  background: var(--persian-pink);
   position: relative;
   margin-bottom: 35px;
   border-radius: 6px;
@@ -869,7 +869,7 @@ section {
   content: "";
   width: 0;
   height: 0;
-  border-top: 20px solid #f3f9fd;
+  border-top: 20px solid var(--persian-pink);
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
   position: absolute;
@@ -1522,7 +1522,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #87c1ea;
+  color: var(--brown-dark);
 }
 
 .faq .faq-list .icon-show,
@@ -1578,7 +1578,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #e3f0fa;
+  background: var(--persian-pink);
   display: flex;
   justify-content: center;
   align-items: center;

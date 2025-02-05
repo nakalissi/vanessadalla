@@ -1,20 +1,14 @@
-import "./App.css";
-import Header from "./views/layout/Header";
-import Main from "./views/layout/Main";
-import Footer from "./views/layout/Footer";
-import Hero from "./components/Hero";
+import { createContext, useState } from "react";
+import Router from "./router";
 
+const ThemeContext = createContext("light");
 function App() {
+  const [theme] = useState("light");
+
   return (
-    <div>
-      <Header />
-
-      <Hero />
-
-      <Main />
-
-      <Footer />
-    </div>
+    <ThemeContext.Provider value={{ theme }}>
+      <Router />
+    </ThemeContext.Provider>
   );
 }
 
