@@ -6,8 +6,8 @@ function Products() {
   return (
     <>
       <Hero />
-      <main id="products">
-        <section id="products" className="services section-bg">
+      <main id="services">
+        <section id="services" className="services section-bg">
           <div className="container" data-aos="fade-up">
             <div className="section-title">
               <h2>Conteúdos Exclusivos</h2>

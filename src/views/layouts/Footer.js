@@ -14,7 +14,10 @@ function Footer() {
                 <br />
                 <strong>Celular:</strong> +55 11 9 4456-3567
                 <br />
-                <strong>Email:</strong> contato@vanessadalla.com.br
+                <strong>Email:</strong>{" "}
+                <a href="mailto:contato@vanessadalla.com.br">
+                  contato@vanessadalla.com.br
+                </a>
                 <br />
               </p>
             </div>

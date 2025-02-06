@@ -353,6 +353,7 @@ h6 {
   position: absolute;
   top: 15px;
   right: 15px;
+  color: #fff;
 }
 
 .navbar-mobile ul {
@@ -540,7 +541,7 @@ h6 {
     background-attachment: fixed;
   }
   #hero .container {
-    padding-top: 300px;
+    padding-top: 150px;
   }
 }
 
@@ -1576,10 +1577,6 @@ section {
 
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
-}
-
-.faq .faq-list a.collapsed .icon-close {
-  display: none;
 }
 
 @media (max-width: 1200px) {

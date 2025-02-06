@@ -14,7 +14,7 @@ function Contact({ children }) {
         </div>
 
         <div className="row content">
-          <div className="col-lg-12 col-md-6">
+          <div className="col-lg-6 col-md-12">
             <p>
               Meu compromisso é criar conexões autênticas, sempre com
               transparência, empatia e um olhar acolhedor.
@@ -38,11 +38,16 @@ function Contact({ children }) {
                 Valores: Empatia, transparência, excelência e impacto positivo.
               </li>
             </ul>
-          </div>
-          <div className="col-lg-12 col-md-6 pt-4 pt-lg-0 text-center">
             <a href="/#" className="btn-learn-more">
               Solicite um orçamento gratuíto
             </a>
+          </div>
+          <div className="col-lg-6 col-md-12 pt-4 pt-lg-0 text-center">
+            <img
+              src="/assets/images/vanessa-dalla.jpg"
+              alt="Vanessa Dalla"
+              className="img-fluid"
+            />
           </div>
         </div>
       </div>

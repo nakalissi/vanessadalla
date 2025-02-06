@@ -1,16 +1,39 @@
 import { useState } from "react";
-import Accordion from "react-bootstrap/Accordion";
 
-function VAccordion({ index, title, content }) {
-  const [tab] = useState(0);
+function Accordion({ list, onClick }) {
+  console.log(list);
+
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <Accordion defaultActiveKey="0">
-      <Accordion.Item eventKey={index}>
-        <Accordion.Header>{title}</Accordion.Header>
-        <Accordion.Body>{content}</Accordion.Body>
-      </Accordion.Item>
-    </Accordion>
+    <div className="faq-list">
+      <ul>
+        {list.map((item, index) => {
+          return (
+            <li key={index}>
+              <i className="bx bx-help-circle icon-help"></i>{" "}
+              <a
+                data-bs-toggle="collapse"
+                className="collapsed"
+                onClick={() => setIsOpen(!isOpen)}
+              >
+                {item.title}
+                <i className="bx bx-chevron-down icon-show"></i>
+                <i className="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div
+                id={`faq-list-${index}`}
+                className={
+                  isOpen ? "accordion-collapse collapse show" : "collapse"
+                }
+              >
+                <p>{item.content}</p>
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
   );
 }
 
-export default VAccordion;
+export default Accordion;

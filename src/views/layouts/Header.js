@@ -25,11 +25,14 @@ function Header() {
             </li>
             <li className="dropdown">
               <a href="/#">
-                <span>Serviços</span> <i className="bi bi-chevron-down"></i>
+                <span>Soluções</span> <i className="bi bi-chevron-down"></i>
               </a>
               <ul>
                 <li>
-                  <a href="/#">Drop Down 1</a>
+                  <a href="/#services-companies">Para Empresas</a>
+                </li>
+                <li>
+                  <a href="/#services">Para Candidatos</a>
                 </li>
                 <li className="dropdown">
                   <a href="/#">
@@ -44,15 +47,6 @@ function Header() {
                       <a href="/#">Deep Drop Down 2</a>
                     </li>
                   </ul>
-                </li>
-                <li>
-                  <a href="/#">Drop Down 2</a>
-                </li>
-                <li>
-                  <a href="/#">Drop Down 3</a>
-                </li>
-                <li>
-                  <a href="/#">Drop Down 4</a>
                 </li>
               </ul>
             </li>
@@ -83,7 +77,11 @@ function Header() {
             </li>
           </ul>
           <i
-            className="bi bi-list mobile-nav-toggle"
+            className={
+              isMobile
+                ? "bi bi-x-lg mobile-nav-toggle"
+                : "bi bi-list mobile-nav-toggle"
+            }
             onClick={() => setMobile((isMobile = !isMobile))}
           ></i>
         </nav>
