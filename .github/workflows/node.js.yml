@@ -52,5 +52,5 @@ jobs:
       uses: actions/deploy-pages@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        artifact-path: "github-pages"
+        artifact-name: "github-pages"
   
