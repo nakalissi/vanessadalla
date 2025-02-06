@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nakalissi/vanessadalla/static/css/main.19f1ad03.css",
+    "main.js": "/nakalissi/vanessadalla/static/js/main.02b79213.js",
+    "static/js/488.ecf46d46.chunk.js": "/nakalissi/vanessadalla/static/js/488.ecf46d46.chunk.js",
+    "static/media/imagem-4.jpg": "/nakalissi/vanessadalla/static/media/imagem-4.0f1610031dfcdf2e5009.jpg",
+    "index.html": "/nakalissi/vanessadalla/index.html",
+    "main.19f1ad03.css.map": "/nakalissi/vanessadalla/static/css/main.19f1ad03.css.map",
+    "main.02b79213.js.map": "/nakalissi/vanessadalla/static/js/main.02b79213.js.map",
+    "488.ecf46d46.chunk.js.map": "/nakalissi/vanessadalla/static/js/488.ecf46d46.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19f1ad03.css",
+    "static/js/main.02b79213.js"
+  ]
+}
