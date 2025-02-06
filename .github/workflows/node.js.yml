@@ -45,6 +45,6 @@ jobs:
         name: github-pages
         path: build
     - name: Deploy with github-pages
-      uses: actions/actions-gh-pages@v4
+      uses: actions/deploy-pages@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
