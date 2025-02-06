@@ -6,7 +6,7 @@ import Products from "./views/pages/Products";
 
 function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/vanessadalla">
       <Routes>
         <Route path="/" exact element={<Layout />}>
           <Route index element={<Home />} />
