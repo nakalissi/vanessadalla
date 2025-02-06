@@ -44,9 +44,11 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-pages-artifact@v3
       with:
-        name: github-pages
+        name: "github-pages"
         path: build
     - name: Deploy with github-pages
       uses: actions/deploy-pages@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+        artifact-path: "github-pages"
+  
