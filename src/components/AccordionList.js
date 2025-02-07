@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 function AccordionList({ children }) {
   const [list, setList] = useState([
@@ -31,7 +31,11 @@ function AccordionList({ children }) {
           return (
             <li key={index}>
               <i className="bx bx-help-circle icon-help"></i>{" "}
-              <a className="collapsed" onClick={() => handleOpen(index)}>
+              <a
+                href="#"
+                className="collapsed"
+                onClick={() => handleOpen(index)}
+              >
                 {item.title}
                 {item.isOpen ? (
                   <i className="bx bx-chevron-up icon-close"></i>
