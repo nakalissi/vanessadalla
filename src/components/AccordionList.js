@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 function AccordionList({ children }) {
   const [list, setList] = useState([
