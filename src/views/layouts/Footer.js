@@ -78,7 +78,7 @@ function Footer() {
         </div>
         <div className="social-links text-center text-md-right pt-3 pt-md-0">
           <a
-            href="https://api.whatsapp.com/send/?phone=5511944563567&text=Ol%C3%A1%2C+seja+bem+vindo+%C3%A1+Tijob%2C+como+podemos+lhe+ajudar+hoje%3F&type=phone_number&app_absent=0"
+            href="https://api.whatsapp.com/send/?phone=5511944563567&text=Ol%C3%A1%2C+seja+bem+vindo+%C3%A1+Vanessa+Dalla%2C+como+podemos+lhe+ajudar+hoje%3F&type=phone_number&app_absent=0"
             className="facebook"
           >
             <i className="bx bxl-whatsapp"></i>
