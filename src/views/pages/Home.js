@@ -10,58 +10,6 @@ function Home() {
       <Main id="main">
         <About />
 
-        {/* <section id="about" className="about-video">
-          <div className="container" data-aos="fade-up">
-            <div className="row">
-              <div
-                className="col-lg-6 video-box align-self-baseline position-relative"
-                data-aos="fade-right"
-                data-aos-delay="100"
-              >
-                <img
-                  src="assets/images/image5.png"
-                  className="img-fluid"
-                  alt=""
-                />
-              </div>
-
-              <div
-                className="col-lg-6 pt-3 pt-lg-0 content"
-                data-aos="fade-left"
-                data-aos-delay="100"
-              >
-                <h3>Proposta de valor</h3>
-                <p className="fst-italic">
-                  Na Solution2.me, oferecemos muito mais que reparos de celulares;
-                  gerenciamos integralmente seus dispositivos móveis com um
-                  serviço abrangente que inclui controle de estoque, sanitização
-                  de dados e recompra de aparelhos usados, tudo isso com a
-                  garantia de peças originais e técnicos especializados.
-                </p>
-                <ul>
-                  <li>
-                    <i className="bx bx-check-double"></i> Garantia de 3 meses
-                    para reparos
-                  </li>
-                  <li>
-                    <i className="bx bx-check-double"></i> Satisfação garantida ou
-                    seu dinheiro de volta
-                  </li>
-                  <li>
-                    <i className="bx bx-check-double"></i> Segurança e
-                    confidencialidade dos dados.
-                  </li>
-                </ul>
-                <p>
-                  <a href="/#contact" className="btn-get-started scrollto">
-                    Solicite um orçamento gratuito
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </section> */}
-
         <section id="services" className="services section-bg">
           <div className="container" data-aos="fade-up">
             <div className="section-title">
