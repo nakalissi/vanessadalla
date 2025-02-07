@@ -32,7 +32,7 @@ function AccordionList({ children }) {
             <li key={index}>
               <i className="bx bx-help-circle icon-help"></i>{" "}
               <a
-                href="#"
+                href="/#"
                 className="collapsed"
                 onClick={() => handleOpen(index)}
               >
