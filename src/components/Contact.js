@@ -33,7 +33,7 @@ function Contact({ children }) {
               <div className="phone">
                 <i className="bi bi-phone"></i>
                 <h4>Ligue:</h4>
-                <p>+55 11 9 9999 9999</p>
+                <p>+55 11 9 4456-3567</p>
               </div>
             </div>
           </div>

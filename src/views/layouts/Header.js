@@ -28,23 +28,25 @@ function Header() {
                 <span>Soluções</span> <i className="bi bi-chevron-down"></i>
               </a>
               <ul>
-                <li>
-                  <a href="/#services-companies">Para Empresas</a>
-                </li>
-                <li>
-                  <a href="/#services">Para Candidatos</a>
-                </li>
                 <li className="dropdown">
                   <a href="/#">
-                    <span>Deep Drop Down</span>{" "}
+                    <span>Empresariais</span>{" "}
                     <i className="bi bi-chevron-right"></i>
                   </a>
                   <ul>
                     <li>
-                      <a href="/#">Deep Drop Down 1</a>
+                      <a href="/">Recrutamento e Seleção</a>
                     </li>
+                  </ul>
+                </li>
+                <li className="dropdown">
+                  <a href="/#">
+                    <span>Profissionais</span>{" "}
+                    <i className="bi bi-chevron-right"></i>
+                  </a>
+                  <ul>
                     <li>
-                      <a href="/#">Deep Drop Down 2</a>
+                      <a href="/professionals">Orientação de Carreira</a>
                     </li>
                   </ul>
                 </li>
@@ -53,16 +55,6 @@ function Header() {
             <li>
               <a className="nav-link scrollto" href="/#clients">
                 Clientes
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="/products">
-                Produtos
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="/#contact">
-                Contato
               </a>
             </li>
             <li>

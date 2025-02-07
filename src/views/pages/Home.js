@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import Hero from "../../components/Hero";
 import Main from "../../components/Main";
 import About from "../../components/About";
-import Contact from "../../components/Contact";
 import AccordionList from "../../components/AccordionList";
 function Home() {
   return (
@@ -68,10 +67,8 @@ function Home() {
             <div className="section-title">
               <h2>Soluções para Profissionais</h2>
               <p>
-                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-                Quia fugiat sit in iste officiis commodi quidem hic quas.
+                Oferecemos soluções exclusivas e personalizadas para os
+                candidatos em busca de um novo desafio na carreira .
               </p>
             </div>
 
@@ -467,8 +464,6 @@ function Home() {
             <AccordionList />
           </div>
         </section>
-
-        <Contact />
       </Main>
     </>
   );
