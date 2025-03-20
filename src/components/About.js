@@ -38,7 +38,12 @@ function Contact({ children }) {
                 Valores: Empatia, transparência, excelência e impacto positivo.
               </li>
             </ul>
-            <a href="/#" className="btn-learn-more">
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511944563567&amp;text=Ol%C3%A1%2C+seja+bem+vindo+%C3%A1+Vanessa+Dalla%2C+como+podemos+lhe+ajudar+hoje%3F&amp;type=phone_number&amp;app_absent=0"
+              target="_blank"
+              className="btn-learn-more"
+              rel="noreferrer"
+            >
               Solicite um orçamento gratuíto
             </a>
           </div>

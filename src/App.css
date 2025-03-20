@@ -442,7 +442,7 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #573232b3;
 }
 
 #hero img {
@@ -483,7 +483,8 @@ h6 {
 
 .content.aos-init.aos-animate .btn-get-started:hover,
 #hero .btn-get-started:hover {
-  background: var(--brown-med);
+  background: var(--primary);
+  color: #fff;
 }
 
 #hero .icon-boxes {

@@ -1,81 +1,77 @@
-import { useState } from "react";
-
 function Header() {
-  let [isMobile, setMobile] = useState(false);
   return (
-    <header id="header" className="fixed-top">
-      <div className="container d-flex align-items-center justify-content-between">
-        <a href="/" className="logo">
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a href="/" class="logo">
           <img
-            src="/assets/images/logo.png"
             alt="Vanessa Dalla Carreira e Talentos"
-            className="img-fluid"
+            class="img-fluid"
+            src="/assets/images/logo.png"
           />
         </a>
-
-        <nav
-          id="navbar"
-          className={isMobile ? "navbar navbar-mobile" : "navbar"}
-        >
+        <nav id="navbar" class="navbar">
           <ul>
             <li>
-              <a className="nav-link scrollto" href="/#about">
+              <a class="nav-link scrollto" href="/#about">
                 Sobre Mim
               </a>
             </li>
-            <li className="dropdown">
+            <li class="dropdown">
               <a href="/#">
-                <span>Soluções</span> <i className="bi bi-chevron-down"></i>
+                <span>Soluções</span> <i class="bi bi-chevron-down"></i>
               </a>
               <ul>
-                <li className="dropdown">
+                <li class="dropdown">
                   <a href="/#">
                     <span>Empresariais</span>{" "}
-                    <i className="bi bi-chevron-right"></i>
+                    <i class="bi bi-chevron-right"></i>
                   </a>
                   <ul>
                     <li>
-                      <a href="/">Recrutamento e Seleção</a>
+                      <a href="/#services-companies">Recrutamento e Seleção</a>
                     </li>
                   </ul>
                 </li>
-                <li className="dropdown">
+                <li class="dropdown">
                   <a href="/#">
                     <span>Profissionais</span>{" "}
-                    <i className="bi bi-chevron-right"></i>
+                    <i class="bi bi-chevron-right"></i>
                   </a>
                   <ul>
                     <li>
-                      <a href="/professionals">Orientação de Carreira</a>
+                      <a href="/#services">Orientação de Carreira</a>
                     </li>
                   </ul>
                 </li>
               </ul>
             </li>
             <li>
-              <a className="nav-link scrollto" href="/#clients">
+              <a
+                class="nav-link scrollto"
+                href="https://jobs.recrutei.com.br/vanessa-dalla-carreira-talentos"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Mural de Vagas
+              </a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="/#clients">
                 Clientes
               </a>
             </li>
             <li>
               <a
-                href="https://api.whatsapp.com/send/?phone=5511944563567&text=Ol%C3%A1%2C+seja+bem+vindo+%C3%A1+Vanessa+Dalla%2C+como+podemos+lhe+ajudar+hoje%3F&type=phone_number&app_absent=0"
-                className="whatsapp-button getstarted bg-success"
+                href="https://api.whatsapp.com/send/?phone=5511944563567&amp;text=Ol%C3%A1%2C+seja+bem+vindo+%C3%A1+Vanessa+Dalla%2C+como+podemos+lhe+ajudar+hoje%3F&amp;type=phone_number&amp;app_absent=0"
+                class="whatsapp-button getstarted bg-success"
                 target="_blank"
                 rel="noreferrer"
               >
-                Whatsapp <i className="bi bi-whatsapp"></i>
+                Whatsapp <i class="bi bi-whatsapp"></i>
               </a>
             </li>
           </ul>
-          <i
-            className={
-              isMobile
-                ? "bi bi-x-lg mobile-nav-toggle"
-                : "bi bi-list mobile-nav-toggle"
-            }
-            onClick={() => setMobile((isMobile = !isMobile))}
-          ></i>
+          <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
       </div>
     </header>

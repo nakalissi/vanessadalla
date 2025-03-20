@@ -20,7 +20,10 @@ function Hero({ children }) {
           </div>
         </div>
         <div className="text-center">
-          <a href="#contact" className="btn-get-started scrollto">
+          <a
+            href="https://api.whatsapp.com/send/?phone=5511944563567&amp;text=Ol%C3%A1%2C+seja+bem+vindo+%C3%A1+Vanessa+Dalla%2C+como+podemos+lhe+ajudar+hoje%3F&amp;type=phone_number&amp;app_absent=0"
+            className="btn-get-started scrollto"
+          >
             Fale com um especialista
           </a>
         </div>
