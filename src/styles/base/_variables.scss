@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------
+# General
+#6393A6
+#BF785E
+#F2CBBD
+#A65B4B
+#733B36
+--------------------------------------------------------------*/
+:root {
+  --primary: #FC5401;
+  --secondary: rgb(47 46 46);
+  --blue-ocean: #6393A6;
+  --brown-light: #A65B4B;
+  --brown-med: #BF785E;
+  --brown-dark: #733B36;
+  --persian-pink: #F2CBBD;
+  --black: #000000ff;
+}
+
+$btn-primary: var(--primary);
+$btn-secondary: var(--secondary);

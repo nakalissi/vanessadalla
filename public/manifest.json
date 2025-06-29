@@ -1,15 +1,26 @@
 {
-  "short_name": "Vanessa Dalla App",
-  "name": "Vanessa Dalla App",
+  "name": "BMVagas Dalla",
+  "short_name": "BmVagas.Dalla",
+  "description": "A Next.js application optimized for search engines.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "16x16",
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "/assets/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }

@@ -1,5 +1,25 @@
-import React from "react";
-function Contact({ children }) {
+function Contact() {
+
+  async function handleSubmit(e) {
+    console.log('handleSubmit called');
+    e.preventDefault();
+    const form = e.target;
+    const data = {
+      name: form.name.value,
+      email: form.email.value,
+      subject: form.subject.value,
+      message: form.message.value,
+    };
+    const res = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data),
+    });
+    if (res.ok) {
+      alert('Mensagem enviada!');
+    }
+  }
+
   return (
     <section id="contact" className="contact">
       <div className="container" data-aos="fade-up">
@@ -40,7 +60,7 @@ function Contact({ children }) {
 
           <div className="col-lg-8 mt-5 mt-lg-0">
             <form
-              action="forms/contact.php"
+              onSubmit={handleSubmit}
               method="post"
               className="php-email-form"
             >
