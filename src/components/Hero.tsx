@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default function Hero() {
   return (
@@ -9,11 +9,11 @@ export default function Hero() {
         data-aos-delay="100">
         <div className="row justify-content-center">
           <div className="col-xl-7 col-lg-9 text-center mt-10">
+            <h1>Quer contratar com agilidade ou conquistar uma nova vaga?</h1>
             <h2>
-              Sua franquia BM VAGAS, com o toque pessoal de Vanessa Dalla agora
-              em Sorocaba e região
+              A franquia BM VAGAS, com o toque pessoal de Vanessa Dalla te ajuda
+              nessa jornada.
             </h2>
-            <h1>Quem é você?</h1>
           </div>
         </div>
         <div className="text-center">
