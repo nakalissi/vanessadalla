@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint .",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "export": "next build && next export"
   },
   "dependencies": {
     "@sentry/react": "^8.19.0",
