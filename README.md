@@ -2,8 +2,6 @@
 
 Este é o website oficial da empresa **Vanessa Dalla Recrutamento e Carreira**, desenvolvido com **Next.js** para oferecer alto desempenho, SEO otimizado e uma experiência fluida em dispositivos móveis e desktop.
 
-![Preview](./public/assets/images/vanessa11.jpg)
-
 ---
 
 ## 🔍 Sobre o Projeto
@@ -92,14 +90,6 @@ npm run dev
 ```
 http://localhost:3000
 ```
-
----
-
-## 📸 Screenshots
-
-| Home | Carrossel de Serviços | Clientes |
-|------|-----------------------|----------|
-| ![](./public/assets/images/vanessa11.jpg) | ![](./public/assets/images/imagem-4.jpg) | ![](./public/assets/images/clients/laborpack.png) |
 
 ---
 
