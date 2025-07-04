@@ -1,70 +1,153 @@
-# Vanessa Dalla Next.js App
+# Vanessa Dalla – Recrutamento e Carreira 💼
 
-This is a Next.js application designed to optimize performance and SEO for better visibility on search engines like Google and Bing.
+Este é o website oficial da empresa **Vanessa Dalla Recrutamento e Carreira**, desenvolvido com **Next.js** para oferecer alto desempenho, SEO otimizado e uma experiência fluida em dispositivos móveis e desktop.
 
-## Project Structure
+![Preview](./public/assets/images/vanessa11.jpg)
+
+---
+
+## 🔍 Sobre o Projeto
+
+O site tem como objetivo principal apresentar os serviços da consultora Vanessa Dalla, com foco em **Recrutamento Especializado**, **Consultoria de Carreira**, **Depoimentos de Clientes** e geração de leads qualificados. A aplicação é moderna, responsiva e otimizada para buscadores como Google e Bing.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **Next.js** – Framework React com SSR/SSG para SEO e performance
+- **React.js** – Biblioteca de componentes para interfaces modernas
+- **TypeScript** – Tipagem estática para maior confiabilidade
+- **Swiper.js** – Carrosséis modernos com navegação fluida
+- **CSS Modules / Global CSS** – Estilização modular e global
+- **GitHub Actions** – Deploy e CI/CD automatizados
+- **Imagem otimizada** – Estratégias para carregamento rápido e lazy-loading
+
+---
+
+## 🧱 Estrutura do Projeto
 
 ```
-my-nextjs-app
-├── public
-│   ├── assets
-│   │   ├── images          # Image assets used throughout the application
-│   │   └── vendor          # Vendor libraries for icons and UI components
-│   │       ├── boxicons    # Icon library
-│   │       ├── bootstrap-icons # Icon library
-│   │       ├── remixicon   # Icon library
-│   │       └── swiper      # Library for creating sliders and carousels
-│   ├── favicon.ico         # Favicon for the application
-│   └── manifest.json       # Metadata for the web app
-├── src
-│   ├── pages
-│   │   ├── _app.tsx        # Custom App component for initializing pages
-│   │   ├── _document.tsx   # Custom Document structure
-│   │   └── index.tsx       # Main entry point for the application
-│   ├── components          # Reusable React components
-│   └── styles
-│       └── globals.css     # Global CSS styles
-├── next.config.js          # Configuration file for Next.js
-├── package.json             # npm configuration file
-└── README.md                # Documentation for the project
+vanessadalla/
+├── .github/                 # CI/CD com GitHub Actions
+│   └── workflows/
+│       └── node.js.yml
+├── docs/
+│   └── design-tokens.md    # Guia de tokens de design e identidade visual
+├── public/
+│   ├── manifest.json       # Configuração para PWA
+│   ├── favicon.ico         # Ícone do site
+│   └── assets/
+│       ├── css/
+│       │   └── style.css
+│       ├── images/
+│       │   ├── logo.png, imagens promocionais, etc.
+│       │   └── clients/    # Logos de clientes atendidos
+├── src/
+│   ├── components/         # Componentes reutilizáveis
+│   ├── pages/
+│   │   ├── _app.tsx        # Inicialização global
+│   │   ├── _document.tsx   # HTML customizado
+│   │   └── index.tsx       # Página inicial
+│   └── styles/
+│       └── globals.css     # Estilos globais
+├── next.config.js          # Configurações do Next.js
+├── tsconfig.json           # Configuração TypeScript
+└── package.json            # Scripts e dependências
 ```
 
-## Getting Started
+---
 
-To get started with this project, follow these steps:
+## 🖥️ Executando Localmente
 
-1. **Clone the repository:**
-   ```
-   git clone htps://github.com/nakalissi/vanessadalla.git
-   cd vanessadalla
-   ```
+### Pré-requisitos
 
-2. **Install dependencies:**
-   ```
-   npm install
-   ```
+- Node.js 16+
+- npm ou yarn
 
-3. **Run the development server:**
-   ```
-   npm run dev
-   ```
+### Passos
 
-4. **Open your browser and navigate to:**
-   ```
-   http://localhost:3000
-   ```
+1. Clone o repositório:
 
-## Features
+```bash
+git clone https://github.com/nakalissi/vanessadalla.git
+cd vanessadalla
+```
 
-- Server-side rendering for improved SEO.
-- Static site generation for faster load times.
-- Built-in CSS and Sass support.
-- API routes for backend functionality.
+2. Instale as dependências:
 
-## Contributing
+```bash
+npm install
+# ou yarn
+```
 
-If you would like to contribute to this project, please fork the repository and submit a pull request.
+3. Inicie o servidor de desenvolvimento:
 
-## License
+```bash
+npm run dev
+# ou yarn dev
+```
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+4. Acesse o navegador em:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 📸 Screenshots
+
+| Home | Carrossel de Serviços | Clientes |
+|------|-----------------------|----------|
+| ![](./public/assets/images/vanessa11.jpg) | ![](./public/assets/images/imagem-4.jpg) | ![](./public/assets/images/clients/laborpack.png) |
+
+---
+
+## ⚙️ Scripts
+
+```bash
+npm run dev       # Inicia ambiente de desenvolvimento
+npm run build     # Compila aplicação para produção
+npm start         # Executa aplicação compilada
+npm run lint      # Executa verificação de lint
+```
+
+---
+
+## 🌐 Deploy
+
+O projeto pode ser facilmente hospedado nas seguintes plataformas:
+
+- **[Vercel](https://vercel.com)** – Deploy contínuo integrado com GitHub
+- **Netlify** – Suporte a SSR/SSG com configurações simples
+- **AWS Amplify** – Para escalabilidade empresarial
+
+---
+
+## 🤝 Contribuindo
+
+Quer contribuir com melhorias?
+
+1. Faça um fork
+2. Crie uma branch: `git checkout -b minha-feature`
+3. Commit suas alterações: `git commit -m 'feat: minha melhoria'`
+4. Push na branch: `git push origin minha-feature`
+5. Crie um Pull Request
+
+---
+
+## 📜 Licença
+
+Distribuído sob licença **MIT**. Veja `LICENSE` para mais detalhes.
+
+---
+
+## 📬 Contato
+
+- Site: [vanessadalla.com.br](https://vanessadalla.com.br)
+- Instagram: [@vanessadallaconsultoria](https://instagram.com/vanessadallaconsultoria)
+- Desenvolvido por: [@nakalissi](https://github.com/nakalissi)
+
+---
+
+> **Nota**: Este projeto é parte da presença digital da empresa Vanessa Dalla Recrutamento e Carreira. Para uso comercial, entre em contato com o autor.
