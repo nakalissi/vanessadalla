@@ -1,4 +1,4 @@
-# My Next.js App
+# Vanessa Dalla Next.js App
 
 This is a Next.js application designed to optimize performance and SEO for better visibility on search engines like Google and Bing.
 
@@ -35,8 +35,8 @@ To get started with this project, follow these steps:
 
 1. **Clone the repository:**
    ```
-   git clone <repository-url>
-   cd my-nextjs-app
+   git clone htps://github.com/nakalissi/vanessadalla.git
+   cd vanessadalla
    ```
 
 2. **Install dependencies:**
