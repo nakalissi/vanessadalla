@@ -2,13 +2,13 @@
 
 Este é o website oficial da empresa **Vanessa Dalla Recrutamento e Carreira**, desenvolvido com **Next.js** para oferecer alto desempenho, SEO otimizado e uma experiência fluida em dispositivos móveis e desktop.
 
----
+
 
 ## 🔍 Sobre o Projeto
 
 O site tem como objetivo principal apresentar os serviços da consultora Vanessa Dalla, com foco em **Recrutamento Especializado**, **Consultoria de Carreira**, **Depoimentos de Clientes** e geração de leads qualificados. A aplicação é moderna, responsiva e otimizada para buscadores como Google e Bing.
 
----
+
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -20,7 +20,7 @@ O site tem como objetivo principal apresentar os serviços da consultora Vanessa
 - **GitHub Actions** – Deploy e CI/CD automatizados
 - **Imagem otimizada** – Estratégias para carregamento rápido e lazy-loading
 
----
+
 
 ## 🧱 Estrutura do Projeto
 
@@ -53,7 +53,7 @@ vanessadalla/
 └── package.json            # Scripts e dependências
 ```
 
----
+
 
 ## 🖥️ Executando Localmente
 
@@ -91,7 +91,7 @@ npm run dev
 http://localhost:3000
 ```
 
----
+
 
 ## ⚙️ Scripts
 
@@ -102,7 +102,7 @@ npm start         # Executa aplicação compilada
 npm run lint      # Executa verificação de lint
 ```
 
----
+
 
 ## 🌐 Deploy
 
@@ -112,32 +112,20 @@ O projeto pode ser facilmente hospedado nas seguintes plataformas:
 - **Netlify** – Suporte a SSR/SSG com configurações simples
 - **AWS Amplify** – Para escalabilidade empresarial
 
----
 
-## 🤝 Contribuindo
-
-Quer contribuir com melhorias?
-
-1. Faça um fork
-2. Crie uma branch: `git checkout -b minha-feature`
-3. Commit suas alterações: `git commit -m 'feat: minha melhoria'`
-4. Push na branch: `git push origin minha-feature`
-5. Crie um Pull Request
-
----
 
 ## 📜 Licença
 
 Distribuído sob licença **MIT**. Veja `LICENSE` para mais detalhes.
 
----
+
 
 ## 📬 Contato
 
-- Site: [vanessadalla.com.br](https://vanessadalla.com.br)
+- Site: [site.vanessadalla.com.br](https://site.vanessadalla.com.br)
 - Instagram: [@vanessadallaconsultoria](https://instagram.com/vanessadallaconsultoria)
 - Desenvolvido por: [@nakalissi](https://github.com/nakalissi)
 
----
+
 
 > **Nota**: Este projeto é parte da presença digital da empresa Vanessa Dalla Recrutamento e Carreira. Para uso comercial, entre em contato com o autor.
